@@ -1,0 +1,164 @@
+{
+  "tips": [
+    "Track every $1 - small leaks sink ships.",
+    "Wait 24h before want purchases.",
+    "Pay yourself first - save before spending.",
+    "Use cash envelope for fun money.",
+    "Review subscriptions monthly."
+  ],
+  "chatbot": {
+    "what is a need": "A need is essential for living & studying - like rent, food, transport, course books.",
+    "what is a want": "A want makes life nicer but you can live without it - like new video game, restaurant food.",
+    "what is a budget": "A budget is a plan for your money: Income - Expenses = Savings. It helps you control spending.",
+    "how much should i save": "Try 20% of income if possible. Even $10/week builds habit. 50/30/20 is a guideline.",
+    "how do i avoid overspending": "Track expenses, use Pause Before Buying, set limits for wants, remove saved cards from shopping sites.",
+    "what is an expense": "Expense is money you spend - fixed (rent) or variable (snacks).",
+    "fallback": "I'm BudgetBee! I only know basic budgeting topics: needs, wants, budget, saving, expenses. Try asking about those."
+  },
+  "gallery": [
+    {
+      "title": "Needs vs Wants Matrix",
+      "desc": "Visual guide to separate essentials.",
+      "category": "budget",
+      "icon": "bi-balance-scale"
+    },
+    {
+      "title": "50/30/20 Split Donut",
+      "desc": "How to divide income smartly.",
+      "category": "budget",
+      "icon": "bi-pie-chart"
+    },
+    {
+      "title": "Monthly Budget Cycle",
+      "desc": "Income → Plan → Track → Review.",
+      "category": "habits",
+      "icon": "bi-arrow-repeat"
+    },
+    {
+      "title": "Saving Challenge 30 Days",
+      "desc": "Save $1, then $2 daily.",
+      "category": "saving",
+      "icon": "bi-piggy-bank"
+    },
+    {
+      "title": "Pause Before Buying",
+      "desc": "4 questions to stop impulse.",
+      "category": "habits",
+      "icon": "bi-pause-circle"
+    },
+    {
+      "title": "Student Budget Sample",
+      "desc": "Real example $800/month.",
+      "category": "budget",
+      "icon": "bi-book"
+    }
+  ],
+  "search": [
+    {
+      "title": "Understanding Saving",
+      "topic": "saving",
+      "text": "Saving is setting money aside for future goals."
+    },
+    {
+      "title": "Needs are Essential",
+      "topic": "needs",
+      "text": "Bus fare, books, rent are needs."
+    },
+    {
+      "title": "Track Expenses Daily",
+      "topic": "expenses",
+      "text": "Small expenses add up quickly."
+    },
+    {
+      "title": "Set SMART Goals",
+      "topic": "goals",
+      "text": "Specific, Measurable, Achievable goals work."
+    },
+    {
+      "title": "Budgeting Basics",
+      "topic": "budgeting",
+      "text": "Income, fixed, variable, savings."
+    },
+    {
+      "title": "Wants Can Wait",
+      "topic": "wants",
+      "text": "Video games, new shoes can wait 24h."
+    }
+  ],
+  "scenarios": [
+    {
+      "text": "Bus fare to college",
+      "amount": "$2.50 daily",
+      "icon": "bi-bus-front",
+      "type": "need",
+      "why": "Essential transport to attend classes. Without it you can't study."
+    },
+    {
+      "text": "Required course book",
+      "amount": "$45",
+      "icon": "bi-book",
+      "type": "need",
+      "why": "Needed for learning and exams. Academic essential."
+    },
+    {
+      "text": "Restaurant food delivery",
+      "amount": "$18",
+      "icon": "bi-egg-fried",
+      "type": "want",
+      "why": "You have food at home. Eating out is comfort, not survival."
+    },
+    {
+      "text": "New video game",
+      "amount": "$60",
+      "icon": "bi-controller",
+      "type": "want",
+      "why": "Entertainment - fun but optional. Can wait or find cheaper option."
+    },
+    {
+      "text": "Optional trendy shoes",
+      "amount": "$80",
+      "icon": "bi-bootstrap",
+      "type": "want",
+      "why": "You have shoes. New fashion is a want."
+    },
+    {
+      "text": "Electricity bill",
+      "amount": "$40",
+      "icon": "bi-lightbulb",
+      "type": "need",
+      "why": "Utilities keep lights on for study."
+    }
+  ],
+  "mistakes": [
+    {
+      "title": "Impulse Buying",
+      "scenario": "Seeing a sale and buying instantly.",
+      "explain": "Emotional buying bypasses budget.",
+      "fix": "Use 24-hour rule. Add to wishlist, revisit tomorrow."
+    },
+    {
+      "title": "Ignoring Small Expenses",
+      "scenario": "$3 coffee daily = $90/month unnoticed.",
+      "explain": "Small leaks sink budgets.",
+      "fix": "Track every expense for 7 days in planner."
+    },
+    {
+      "title": "Late Payments",
+      "scenario": "Paying library fine or phone bill late.",
+      "explain": "Fees waste money and cause stress.",
+      "fix": "Set phone reminders 2 days before due."
+    },
+    {
+      "title": "Unused Subscriptions",
+      "scenario": "Paying for streaming you don't watch.",
+      "explain": "$10/month forgotten = $120/year.",
+      "fix": "Audit subscriptions monthly, cancel unused."
+    },
+    {
+      "title": "Spending Without a Plan",
+      "scenario": "No budget, money disappears.",
+      "explain": "No plan = overspend.",
+      "fix": "Use 50/30/20 calculator each month start."
+    }
+  ]
+}
